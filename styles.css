@@ -1,0 +1,88 @@
+.romana{
+text-align: center;
+font-size: 35px;
+}
+.logo{
+margin-left: 80%;
+position: absolute;
+
+}
+.body{
+    background: lightgray;
+}
+.lote-cc,.fecha-sacrificio,.fecha-produccion{
+width: 15%;
+height: 3%;
+position:relative;
+margin-bottom: 1%;
+}
+.etiqueta,.consecutivo,.tipo-produccion{
+margin-left: 2%;
+height: 4%;
+
+}
+.peso{
+width: 20%;
+height: 10%;
+text-align: center;
+font-size: 400%;
+position: static;
+margin-left: 0%;
+}
+.tara{
+margin-left: 15%;
+width: 10%;
+height: 10%;
+font-size: 300%;
+text-align: center;
+}
+
+/*botones de los cortes*/
+.botonera{
+    width: 100%;
+ display: flex;
+ justify-content: space-around;
+ padding-left: 20px;
+}
+.botones-container{
+    margin-right: 60%;
+    width: 60%;
+display: block;
+justify-content: space-around;
+}
+.btn-cortes{
+background: lightblue;
+width: 80px;
+height: 80px;
+border-radius: 8px;
+}
+.btn-cortes:hover{
+width: 70px;
+height: 70px;
+font-style: italic;
+background-color: rgb(85, 231, 250);
+transition: 160ms
+}
+.resumen-btn{
+
+border-radius: 8px;
+background: burlywood;
+width: 160px;
+height: 40px;
+margin-bottom: 20px;
+margin-left: 60%;
+font-size: 16px;
+}
+.panel{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+   
+}
+.resumen-btn:hover{
+font-style: italic;
+height: 50px;
+transition: 100ms;
+color: blue;
+}

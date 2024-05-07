@@ -1,2 +1,1 @@
-# romana
-proyecto de una interfaz para una romana de produccion
+comiezo del proyecto de realizar una interfaz para un programa de romana
